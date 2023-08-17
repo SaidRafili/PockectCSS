@@ -1,0 +1,96 @@
+:root {
+  --card_width: 250px;
+  --row_increment: 10px;
+  --card_border_radius: 16px;
+  --card_small: 33;
+  --card_medium: 37;
+  --card_large: 41;
+}
+
+.pin_container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--card_width));
+  grid-auto-rows: var(--row_increment);
+  justify-content: center;
+}
+
+.card {
+  padding: 0;
+  margin: 15px 10px;
+  border-radius: var(--card_border_radius);
+  background-color: rgb(255, 255, 255);
+}
+
+.card_small {
+  grid-row-end: span var(--card_small);
+}
+
+.card_small .image-cont{
+  height: 160px;
+}
+
+.card_medium {
+  grid-row-end: span var(--card_medium);
+}
+
+.card_medium .image-cont {
+  height: 200px;
+}
+
+.card_large {
+  grid-row-end: span var(--card_large);
+}
+
+.card_large .image-cont{
+  height: 240px;
+}
+
+.text-cont{
+    padding-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-cont h1{
+    padding-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.text-cont h1:hover{
+    overflow: visible;
+    text-decoration:dotted;
+}
+
+.text-cont p{
+    padding-top:5px;
+    word-spacing: 0.005vw;
+    height: 100%;
+    cursor:text;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.1ms;
+}
+
+.image:hover {
+  filter:opacity(80%);
+}
+
