@@ -1,0 +1,162 @@
+/** pocketCSS container width referances**/
+
+
+/* MAIN */
+
+.main{
+    width: 100%;
+    left: 0;
+}
+
+.container-full{
+    width: 100%;
+    left: 0;
+}
+
+/* DECLARING CONTAİNERS */
+
+
+.container{
+    margin: 0 auto;
+}
+
+/*
+
+.container-1{
+    display: flex;
+}
+
+
+
+.container-2{
+    display: flex;
+}
+
+.container-3{
+    display: flex;
+}
+
+.container-4{
+    display: flex;
+}
+
+.container-5{
+    display: flex;
+}
+
+.container-6{
+    display: flex;
+}
+
+.container-7{
+    display: flex;
+}
+
+.container-8{
+    display: flex;
+}
+
+.container-9{
+    display: flex;
+}
+
+.container-10{
+    display: flex;
+}
+
+.container-11{
+    display: flex;
+}
+
+.container-12{
+    display: flex;
+}
+
+.container-13{
+    display: flex;
+}
+
+.container-14{
+    display: flex;
+}
+
+.container-15{
+    display: flex;
+}
+
+.container-16{
+    display: flex;
+}
+
+*/
+
+/**  declaring sizes of columns for main container**/
+
+.con-1{
+    width: 100px;
+}
+
+.con-2{
+    width: 200px;
+}
+
+.con-3{
+    width: 300px;
+}
+
+.con-4{
+    width: 400px;
+}
+
+.con-5{
+    width: 500px;
+}
+
+.con-6{
+    width: 600px;
+}
+
+.con-7{
+    width: 700px;
+}
+
+.con-8{
+    width: 800px;
+}
+
+.con-9{
+    width: 900px;
+}
+
+.con-10{
+    width: 1000px;
+}
+
+.con-11{
+    width: 1100px;
+}
+
+.con-12{
+    width: 1200px;
+}
+
+/** declaring row **/
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.leftbar{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
