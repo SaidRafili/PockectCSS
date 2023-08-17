@@ -1,0 +1,67 @@
+/* BLACK */
+
+.bg-bl{
+    background-color: #000b0f;
+}
+
+.txt-bl{
+    color: #000b0f;
+    text-decoration-line: none;
+}
+
+/* WHITE */
+
+.bg-wh{
+    background-color: #FFFFFF;
+}
+
+.txt-wh{
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+
+/* BLUE MEDIUM */
+
+.bg-blue{
+    background-color: #3771b3;
+}
+
+.txt-blue{
+    color: #3771b3;
+    text-decoration-line: none;
+}
+
+/* RED */
+
+.bg-red{
+    background-color: #d92121;
+}
+
+.txt-red{
+    color: #d92121;
+    text-decoration-line: none;
+}
+
+/* GREEN */
+
+.bg-gr{
+    background-color: #21d945;
+}
+
+.txt-gr{
+    color: #21d945;
+    text-decoration-line: none;
+}
+
+/* YELLOW */
+
+.bg-yel{
+    background-color: #d3d921;
+}
+
+.txt-yel{
+    color: #d3d921;
+    text-decoration-line: none;
+}
+
+/*  */
