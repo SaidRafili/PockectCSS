@@ -1,0 +1,41 @@
+.grid-1{
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 1vw;
+    padding: 10px 3vw 10px 3vw;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw;
+    padding: 10px 3vw 10px 3vw;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vw;
+    padding: 10px 3vw 10px 3vw;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1vw;
+    padding: 10px 3vw 10px 3vw;
+}
+
+.grid-5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1vw;
+    padding: 10px 3vw 10px 3vw;
+}
+
+.grid-6{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto ;
+    gap: 1vw;
+    padding: 10px 3vw 10px 3vw;
+}
